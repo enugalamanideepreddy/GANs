@@ -14,7 +14,8 @@ Note: The cDCGAN is currently in the development stage.
 To generate random cat images using the pre-trained DCGAN model, run the following command:
 
 ```bash
-python inference.py --checkpoint_file_location <path_to_checkpoint> --num_images <number_of_images> --save_dir <path_to_save_directory>
+cd DCGAN
+python inference.py --checkpoint_file_location <path_to_checkpoint> --num_images <number_of_images> --save_dir <path_to_save_directory> --device <use_gpu_if_present>
 ```
 
 Training commands and files will be uploaded later
